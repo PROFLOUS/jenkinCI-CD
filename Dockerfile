@@ -6,4 +6,4 @@ RUN npm install
 COPY . .
 EXPOSE 3004
 # CMD ["node", "./bin/www"]
-CMD ["pm2-runtime", "./bin/www"]
+CMD ["pm2-runtime", "index.js"]
