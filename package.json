@@ -8,7 +8,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
